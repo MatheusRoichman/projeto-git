@@ -6,4 +6,4 @@ function calcIdade(event) {
   const idade = anoAtual - anoNascimento;
 
   document.getElementById("paragrafoIdade").innerHTML = "Sua idade é " + idade;
-} 
+}
