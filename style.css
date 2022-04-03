@@ -15,6 +15,10 @@ body {
   align-items: center;
 }
 
+form {
+  margin: 1rem 0;
+}
+
 input {
   border: 0;
   border-radius: 10px;
