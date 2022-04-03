@@ -1,0 +1,9 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2rem/1.6 'Montserrat', sans-serif;
+}
