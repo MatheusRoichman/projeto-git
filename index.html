@@ -11,12 +11,12 @@
   <title>Projeto GIT</title>
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <p>Lorem ipsum dolor sit amet</p>
-  <ul>
-    <li>list1</li>
-    <li>list2</li>
-  </ul>
+  <h1>Calcule sua idade</h1>
+  <p id="paragrafoIdade"></p>
+  <form onsubmit="calcIdade(event)">
+    <input type="number" name="anoNascimento" id="anoNascimento" placeholder="Digite seu ano de nascimento">
+    <button type="submit">Calcular</button>
+  </form>
   <script src="./main.js" type="text/javascript"></script>
 </body>
 </html>
